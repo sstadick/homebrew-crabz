@@ -7,11 +7,11 @@ class Crabz< Formula
   if OS.linux?
     # wget -q -S -O - https://github.com/sstadick/crabz/releases/download/v0.6.0/crabz-linux-amd64 | shasum -a 256
     url "https://github.com/sstadick/crabz/releases/download/v#{version}/crabz-linux-amd64"
-    sha256 "ad148df78bfd6d8a282914651e5e18a53c07207db4493be30be6cef1b8fe067d"
+    sha256 "0052376261a414c7c73b32b4653105081d410aee16782ca202d2d55543bbb432"
   elsif OS.mac?
     # wget -q -S -O - https://github.com/sstadick/crabz/releases/download/v0.6.0/crabz-macos-amd64 | shasum -a 256
     url "https://github.com/sstadick/crabz/releases/download/v#{version}/crabz-macos-amd64"
-    sha256 "aeec42f4236676d2b78bd7746add676c7c4f5c816b648baf4a7ece20676ec5bc"
+    sha256 "e117a63c170f13169d5cfac09748528d914dc5a45e25eb9e9b5eb9a65198b9c3"
   end
 
   def install
