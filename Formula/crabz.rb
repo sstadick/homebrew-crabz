@@ -2,16 +2,16 @@ class Crabz< Formula
   desc "Cross platform, fast, compression and decompression tool."
   homepage "https://github.com/sstadick/crabz"
   license any_of: ["MIT", "Unlicense"]
-  version "0.6.1"
+  version "0.6.3"
 
   if OS.linux?
-    # wget -q -S -O - https://github.com/sstadick/crabz/releases/download/v0.6.1/crabz-linux-amd64 | shasum -a 256
+    # wget -q -S -O - https://github.com/sstadick/crabz/releases/download/v0.6.3/crabz-linux-amd64 | shasum -a 256
     url "https://github.com/sstadick/crabz/releases/download/v#{version}/crabz-linux-amd64"
-    sha256 "ba89d9aea6da75a953daca7acab627496e5ec50689000a05fdf63bb0423ea3a0"
+    sha256 "d25c8854327663793cd9ca62924a8d3745239f5252a1d362d7f3015e6ab758c6"
   elsif OS.mac?
-    # wget -q -S -O - https://github.com/sstadick/crabz/releases/download/v0.6.1/crabz-macos-amd64 | shasum -a 256
+    # wget -q -S -O - https://github.com/sstadick/crabz/releases/download/v0.6.3/crabz-macos-amd64 | shasum -a 256
     url "https://github.com/sstadick/crabz/releases/download/v#{version}/crabz-macos-amd64"
-    sha256 "ad84fd3733844272e958d5c6bfd5c1fa39977e3b3f72d4319732c83817eed5b2"
+    sha256 "96696ce8451b5b50e83219aff9f709e3203a8fb3b9b26a41dbf5ddc836d74e68"
   end
 
   def install
